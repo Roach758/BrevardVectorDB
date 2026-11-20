@@ -1,0 +1,26 @@
+# Virtual environments & Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Temporary audio / download staging
+temp/
+_temp_brevard_vector_db.zip
+dist_package/
+New folder/
+
+# Unpacked ChromaDB directory (exceeds GitHub's 100 MB single-file limit;
+# tracked via compressed 80 MB split archives in db_archive/ and unpacked via unpack_db.py)
+chroma_storage/
+
+# Raw source HTML/PDF staging folders (vectorized into chroma_storage & laws.db)
+agendas/
+Laws/
+
+# Local-only confidential investigation workbooks & public records request drafts
+Reporting_Investigation_Workbook.xlsx
+Reporting_List_cleaned.csv
+SUNSHINE_LAW_PUBLIC_RECORDS_REQUEST.md
+Sunshine_Law_Public_Records_Request.txt
+

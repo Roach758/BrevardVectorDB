@@ -1,0 +1,23 @@
+# Web Framework & Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+requests>=2.32.0
+
+# Frontend
+streamlit>=1.40.0
+
+# Video / Audio Extraction
+yt-dlp>=2024.11.4
+
+# Local Speech-to-Text (GPU)
+faster-whisper>=1.1.0
+
+# Deep Learning & Embeddings (CUDA-enabled PyTorch should be installed for your CUDA version)
+torch>=2.5.0
+sentence-transformers>=3.3.0
+transformers>=4.46.0
+
+# Text Splitting & Vector Database
+langchain-text-splitters>=0.3.2
+chromadb>=0.5.20
